@@ -33,13 +33,13 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top img-responsive" src="assets/images/races/Human.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </p>
+                            <h5 class="card-title"style="color: black">Human</h5>
+                            <p class="card-text"style="color: black">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-footer">
+                                <input type="submit" class="btn btn-primary btn-block" value="Choose Human">
+                            </div>
                         </div>
                     </div>
                     <div class="card">
