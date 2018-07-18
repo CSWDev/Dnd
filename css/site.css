@@ -1,4 +1,26 @@
+html
+{
+    /*Prevent scrolling, force the use of jQuery to get the user to move along the website*/
+    /*overflow : hidden;*/
+}
+
 section
 {
     height : 100vh;
+    width  : 100vw;
+}
+
+section div.content
+{
+    text-align : center;
+    position   : relative;
+    top        : 50%;
+    transform  : translateY(-50%);
+
+}
+
+section div.content h2
+{
+    transform : translateY(-500%);
+    font-size : 3em;
 }

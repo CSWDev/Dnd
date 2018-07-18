@@ -9,22 +9,37 @@
           integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
+<body class="bg-dark text-white">
 <div class="container-fluid">
     <section>
-        <h2>Test</h2>
+        <div class="content">
+            <h2>Welcome</h2>
+        </div>
     </section>
     <section>
-        <h2>Test</h2>
+        <div class="content">
+            <h2>Race</h2>
+        </div>
     </section>
     <section>
-        <h2>Test</h2>
+        <div class="content">
+            <h2>Class</h2>
+        </div>
     </section>
     <section>
-        <h2>Test</h2>
+        <div class="content">
+            <h2>Skills</h2>
+        </div>
     </section>
     <section>
-        <h2>Test</h2>
+        <div class="content">
+            <h2>Equipment</h2>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2>Download</h2>
+        </div>
     </section>
 </div>
 
