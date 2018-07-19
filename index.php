@@ -19,7 +19,7 @@
     <section>
         <div class="content">
             <h2>Race</h2>
-            <div class="card-deck">
+            <div class="card-deck text-dark">
                 <div class="row">
                     <div class="card">
                         <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
@@ -94,10 +94,10 @@
     <section>
         <div class="content">
             <h2>Classes</h2>
-            <div class="card-deck">
+            <div class="card-deck text-dark">
                 <div class="row">
                     <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
+                        <img class="card-img-top img-responsive" src="assets/images/classes/barbarian.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Barbarian</h5>
                             <p class="card-text" >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/races/Human.jpg" sizes="100" alt="Card image cap">
+                        <img class="card-img-top img-responsive" src="assets/images/classes/paladin.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Paladin</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/races/Elf.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/classes/cleric.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Cleric</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
@@ -131,7 +131,7 @@
                 </div>
                 <div class="row">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/races/Dwarf.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/classes/druid.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Druid</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/races/Halfling.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/classes/fighter.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Fighter</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/races/Tiefling.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/classes/monk.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Monk</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
