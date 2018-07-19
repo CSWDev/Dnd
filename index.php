@@ -163,6 +163,74 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/sorcerer.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Druid</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Sorcerer">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/wizard.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Wizard">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/warlock.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Monk</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
+                                the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Warlock">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/ranger.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Druid</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Ranger">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/rogue.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Rogue">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/classes/warlock.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Monk</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
+                                the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Bard">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
