@@ -29,7 +29,7 @@
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Dragonborn">
+                            <input type="submit"  id="button" class="btn btn-primary btn-block" value="Choose Dragonborn">
                         </div>
                     </div>
                     <div class="card">
@@ -39,7 +39,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Human">
+                            <input type="submit" id="button1" class="btn btn-primary btn-block" value="Choose Human">
                         </div>
                     </div>
                     <div class="card">
@@ -50,7 +50,7 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Elf">
+                            <input type="submit"  id="button2" class="btn btn-primary btn-block" value="Choose Elf">
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                                 longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Dwarf ">
+                            <input type="submit" id="button3" class="btn btn-primary btn-block" value="Choose Dwarf ">
                         </div>
                     </div>
                     <div class="card">
@@ -73,7 +73,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Halfling ">
+                            <input type="submit" id="button4" class="btn btn-primary btn-block" value="Choose Halfling ">
                         </div>
                     </div>
                     <div class="card">
@@ -84,7 +84,7 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Tiefling">
+                            <input type="submit" id="button5"  class="btn btn-primary btn-block" value="Choose Tiefling">
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
         </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content" id="item">
             <h2>Classes</h2>
             <div class="card-deck text-dark">
                 <div class="row">
@@ -233,7 +233,6 @@
                 </div>
             </div>
         </div>
-
         </div>
     </section>
     <section>
@@ -260,6 +259,7 @@
             crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
             crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
 </footer>
 </body>
 </html>
