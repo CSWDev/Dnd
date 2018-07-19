@@ -24,8 +24,8 @@
                     <div class="card">
                         <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title" style="color: black">Dragonborn</h5>
-                            <p class="card-text" style="color: black">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
+                            <h5 class="card-title">Dragonborn</h5>
+                            <p class="card-text" >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
@@ -35,56 +35,56 @@
                     <div class="card">
                         <img class="card-img-top img-responsive" src="assets/images/races/Human.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title"style="color: black">Human</h5>
-                            <p class="card-text"style="color: black">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <div class="card-footer">
-                                <input type="submit" class="btn btn-primary btn-block" value="Choose Human">
-                            </div>
+                            <h5 class="card-title">Human</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Human">
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/races/Elf.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Elf</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
                                 the first to show that equal height action.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Elf">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/races/Dwarf.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Dwarf</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
                                 longer.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Dwarf ">
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/races/Halfling.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Halfling</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Halfling ">
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/races/Tiefling.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Tiefling</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
                                 the first to show that equal height action.</p>
-                            <p class="card-text">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Tiefling">
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,78 @@
     </section>
     <section>
         <div class="content">
-            <h2>Class</h2>
+            <h2>Classes</h2>
+            <div class="card-deck">
+                <div class="row">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Barbarian</h5>
+                            <p class="card-text" >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
+                                little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Barbarian">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="assets/images/races/Human.jpg" sizes="100" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Paladin</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Paladin">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/races/Elf.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cleric</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
+                                the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Cleric">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/races/Dwarf.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Druid</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Druid">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/races/Halfling.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Fighter">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/races/Tiefling.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Monk</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
+                                the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Monk">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         </div>
     </section>

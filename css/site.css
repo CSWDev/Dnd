@@ -40,6 +40,6 @@ section div.content h2
     }
 }
 
-.card-img-top {
-    object-fit: cover;
+.card-title, .card-body{
+    color: black;
 }
