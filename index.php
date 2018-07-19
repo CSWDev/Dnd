@@ -167,7 +167,7 @@
                     <div class="card">
                         <img class="card-img-top" src="assets/images/classes/sorcerer.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Druid</h5>
+                            <h5 class="card-title">Sorcerer</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
                                 longer.</p>
                         </div>
@@ -178,7 +178,7 @@
                     <div class="card">
                         <img class="card-img-top" src="assets/images/classes/wizard.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Fighter</h5>
+                            <h5 class="card-title">Wizard</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
@@ -188,7 +188,7 @@
                     <div class="card">
                         <img class="card-img-top" src="assets/images/classes/warlock.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Monk</h5>
+                            <h5 class="card-title">Warlock</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
                                 the first to show that equal height action.</p>
                         </div>
@@ -201,7 +201,7 @@
                     <div class="card">
                         <img class="card-img-top" src="assets/images/classes/ranger.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Druid</h5>
+                            <h5 class="card-title">Ranger</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit
                                 longer.</p>
                         </div>
@@ -212,7 +212,7 @@
                     <div class="card">
                         <img class="card-img-top" src="assets/images/classes/rogue.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Fighter</h5>
+                            <h5 class="card-title">Rogue</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
@@ -220,9 +220,9 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/classes/warlock.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/classes/bard.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Monk</h5>
+                            <h5 class="card-title">Bard</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than
                                 the first to show that equal height action.</p>
                         </div>
