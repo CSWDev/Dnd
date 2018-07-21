@@ -9,27 +9,27 @@
           integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/site.css">
 </head>
-<body class="bg-dark text-white">
+<body class="bg-dark">
 <div class="container-fluid">
     <section>
         <div class="content">
-            <h2>Welcome</h2>
+            <h2 class="text-white">Welcome</h2>
         </div>
     </section>
     <section>
         <div class="content">
-            <h2>Race</h2>
+            <h2 class="text-white">Race</h2>
             <div class="card-deck text-dark">
                 <div class="row">
                     <div class="card">
                         <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Dragonborn</h5>
-                            <p class="card-text" >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit"  id="button" class="btn btn-primary btn-block" value="Choose Dragonborn">
+                            <input type="submit" id="button" class="btn btn-primary btn-block" value="Choose Dragonborn">
                         </div>
                     </div>
                     <div class="card">
@@ -50,7 +50,7 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit"  id="button2" class="btn btn-primary btn-block" value="Choose Elf">
+                            <input type="submit" id="button2" class="btn btn-primary btn-block" value="Choose Elf">
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button5"  class="btn btn-primary btn-block" value="Choose Tiefling">
+                            <input type="submit" id="button5" class="btn btn-primary btn-block" value="Choose Tiefling">
                         </div>
                     </div>
                 </div>
@@ -93,14 +93,14 @@
     </section>
     <section>
         <div class="content" id="item">
-            <h2>Classes</h2>
-            <div class="card-deck text-dark">
+            <h2 class="text-white">Classes</h2>
+            <div class="card-deck">
                 <div class="row">
                     <div class="card">
                         <img class="card-img-top img-responsive" src="assets/images/classes/barbarian.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Barbarian</h5>
-                            <p class="card-text" >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
@@ -233,21 +233,115 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="content">
+            <h2 class="text-white">Skills</h2>
+        </div>
+    </section>
+    <section id="equipment">
+        <div class="content">
+            <h2 class="text-white">Equipment</h2>
+            <div class="choices">
+                <div id="race" class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Race</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{Chosen race here}</h6>
+                        <p>Image here</p>
+                    </div>
+                </div>
+                <div id="class" class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Class</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{Chosen class here}</h6>
+                        <p>Image here</p>
+                    </div>
+                </div>
+            </div>
+            <div id="equipment">
+                <div class="card text-dark text-center">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="mainhand-tab" data-toggle="tab" href="#mainhand" role="tab" aria-controls="mainhand" aria-selected="true">Main
+                                    Hand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="offhand-tab" data-toggle="tab" href="#offhand" role="tab" aria-controls="offhand" aria-selected="true">Offhand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="range-tab" data-toggle="tab" href="#range" role="tab" aria-controls="range" aria-selected="true">Ranged</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="other-tab" data-toggle="tab" href="#other" role="tab" aria-controls="other" aria-selected="true">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane active show" id="mainhand" role="tabpanel" aria-labelledby="mainhand-tab">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="swordRadio" name="mainRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="swordRadio">Sword</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="daggerRadio" name="mainRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="daggerRadio">Dagger</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="offhand" role="tabpanel" aria-labelledby="offhand-tab">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="shieldRadio" name="offhandRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="shieldRadio">Shield</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="quiverRadio" name="offhandRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="quiverRadio">Quiver</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="range" role="tabpanel" aria-labelledby="range-tab">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="crossbowRadio" name="rangeRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="crossbowRadio">Crossbow</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="shortbowRadio" name="rangeRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="shortbowRadio">Shortbow</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="torchRadio" name="otherRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="torchRadio">Torch</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="keyRadio" name="otherRadio" class="custom-control-input">
+                                        <label class="custom-control-label" for="keyRadio">Skeleton Key</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section>
         <div class="content">
-            <h2>Skills</h2>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <h2>Equipment</h2>
-        </div>
-    </section>
-    <section>
-        <div class="content">
-            <h2>Download</h2>
+            <h2 class="text-white">Download</h2>
         </div>
     </section>
 </div>

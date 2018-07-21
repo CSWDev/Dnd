@@ -32,6 +32,26 @@ section div.content h2
     margin-bottom : 25vh;
 }
 
+
+section#equipment div.choices
+{
+    position: absolute;
+    width: 25%;
+}
+
+section#equipment div.choices div
+{
+margin-bottom: 5%;
+}
+
+
+section#equipment div#equipment
+{
+    position: relative;
+    width: 70%;
+    float : right;
+}
+
 @media (min-width : 768px)
 {
     div.card-deck div.row
