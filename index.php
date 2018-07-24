@@ -91,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="hiddenSectionClasses" class="hidden">
         <div class="content" id="item">
             <h2 class="text-white">Classes</h2>
             <div class="card-deck">

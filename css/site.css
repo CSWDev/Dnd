@@ -32,6 +32,11 @@ section div.content h2
     margin-bottom : 25vh;
 }
 
+section.hidden
+{
+    display: none;
+}
+
 
 section#equipment div.choices
 {
