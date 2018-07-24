@@ -11,38 +11,40 @@
 </head>
 <body class="bg-dark">
 <div class="container-fluid">
-    <section>
+    <section id="0">
         <div class="content">
             <h2 class="text-white">Welcome</h2>
+            <input type="submit" class="btn btn-primary" value="Start" onclick="nextSection(this)">
+
         </div>
     </section>
-    <section>
+    <section id="1" style="display: none;">
         <div class="content">
             <h2 class="text-white">Race</h2>
             <div class="card-deck text-dark">
                 <div class="row">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
+                    <div id="Dragonborn" class="card">
+                        <img id="raceImg" class="card-img-top img-responsive" src="assets/images/races/Dragonborn.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Dragonborn</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button" class="btn btn-primary btn-block" value="Choose Dragonborn">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Dragonborn" onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Human" class="card">
                         <img class="card-img-top img-responsive" src="assets/images/races/Human.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Human</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button1" class="btn btn-primary btn-block" value="Choose Human">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Human" onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Elf" class="card">
                         <img class="card-img-top" src="assets/images/races/Elf.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Elf</h5>
@@ -50,12 +52,12 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button2" class="btn btn-primary btn-block" value="Choose Elf">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Elf" onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card">
+                    <div id="Dwarf" class="card">
                         <img class="card-img-top" src="assets/images/races/Dwarf.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Dwarf</h5>
@@ -63,20 +65,20 @@
                                 longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button3" class="btn btn-primary btn-block" value="Choose Dwarf ">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Dwarf" onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Halfling" class="card">
                         <img class="card-img-top" src="assets/images/races/Halfling.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Halfling</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button4" class="btn btn-primary btn-block" value="Choose Halfling ">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Halfling " onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Tiefling" class="card">
                         <img class="card-img-top" src="assets/images/races/Tiefling.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Tiefling</h5>
@@ -84,19 +86,19 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" id="button5" class="btn btn-primary btn-block" value="Choose Tiefling">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Tiefling" onclick="nextSection(this); getRace(this);">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="hiddenSectionClasses" class="hidden">
+    <section id="2" style="display: none;">
         <div class="content" id="item">
             <h2 class="text-white">Classes</h2>
             <div class="card-deck">
                 <div class="row">
-                    <div class="card">
+                    <div id="Barbarian" class="card">
                         <img class="card-img-top img-responsive" src="assets/images/classes/barbarian.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Barbarian</h5>
@@ -104,20 +106,20 @@
                                 little bit longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Barbarian">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Barbarian" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Paladin" class="card">
                         <img class="card-img-top img-responsive" src="assets/images/classes/paladin.jpg" sizes="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Paladin</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Paladin">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Paladin" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Cleric" class="card">
                         <img class="card-img-top" src="assets/images/classes/cleric.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Cleric</h5>
@@ -125,12 +127,12 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Cleric">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Cleric" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card">
+                    <div id="Druid" class="card">
                         <img class="card-img-top" src="assets/images/classes/druid.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Druid</h5>
@@ -138,17 +140,17 @@
                                 longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Druid">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Druid" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Fighter" class="card">
                         <img class="card-img-top" src="assets/images/classes/fighter.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Fighter</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Fighter">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Fighter" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
                     <div class="card">
@@ -159,12 +161,12 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Monk">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Monk" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card">
+                    <div id="Sorcerer" class="card">
                         <img class="card-img-top" src="assets/images/classes/sorcerer.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Sorcerer</h5>
@@ -172,20 +174,20 @@
                                 longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Sorcerer">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Sorcerer" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Wizard" class="card">
                         <img class="card-img-top" src="assets/images/classes/wizard.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Wizard</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Wizard">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Wizard" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Warlock" class="card">
                         <img class="card-img-top" src="assets/images/classes/warlock.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Warlock</h5>
@@ -193,12 +195,12 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Warlock">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Warlock" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card">
+                    <div id="Ranger" class="card">
                         <img class="card-img-top" src="assets/images/classes/ranger.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Ranger</h5>
@@ -206,20 +208,20 @@
                                 longer.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Ranger">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Ranger" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Rogue" class="card">
                         <img class="card-img-top" src="assets/images/classes/rogue.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Rogue</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Rogue">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Rogue" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
-                    <div class="card">
+                    <div id="Bard" class="card">
                         <img class="card-img-top" src="assets/images/classes/bard.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Bard</h5>
@@ -227,38 +229,40 @@
                                 the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <input type="submit" class="btn btn-primary btn-block" value="Choose Bard">
+                            <input type="submit" class="btn btn-primary btn-block" value="Choose Bard" onclick="nextSection(this); getClass(this);">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="3" style="display: none;">
         <div class="content">
             <h2 class="text-white">Skills</h2>
+            <input type="submit" class="btn btn-primary" value="Next" onclick="nextSection(this)">
+
         </div>
     </section>
-    <section id="equipment">
+    <section id="4" class="equipment" style="display: none;">
         <div class="content">
             <h2 class="text-white">Equipment</h2>
             <div class="choices">
                 <div id="race" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Race</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{Chosen race here}</h6>
-                        <p>Image here</p>
+                        <h6 id="userRace" class="card-subtitle mb-2 text-muted"></h6>
+                        <img id="userRaceImg" class="card-img-top img-responsive" src="" sizes="100" alt="Card image cap">
                     </div>
                 </div>
                 <div id="class" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Class</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{Chosen class here}</h6>
-                        <p>Image here</p>
+                        <h6 id="userClass" class="card-subtitle mb-2 text-muted"></h6>
+                        <img id="userClassImg" class="card-img-top img-responsive" src="" sizes="100" alt="Card image cap">
                     </div>
                 </div>
             </div>
-            <div id="equipment">
+            <div class="equipment">
                 <div class="card text-dark text-center">
                     <div class="card-header">
                         <ul class="nav nav-tabs card-header-tabs">
@@ -339,7 +343,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="5" style="display: none;">
         <div class="content">
             <h2 class="text-white">Download</h2>
         </div>
