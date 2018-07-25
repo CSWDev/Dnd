@@ -245,6 +245,58 @@
     <section id="3" style="display: none;">
         <div class="content">
             <h2 class="text-white">Skills</h2>
+            <div class="card text-dark text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="atwill-tab" data-toggle="tab" href="#atwill" role="tab" aria-controls="atwill" aria-selected="true">Level 1: At-Will Attack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="encounter-tab" data-toggle="tab" href="#encounter" role="tab" aria-controls="encounter" aria-selected="true">Level 1: Encounter Attack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="daily-tab" data-toggle="tab" href="#daily" role="tab" aria-controls="daily" aria-selected="true">Level 1: Daily Attack</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane active show" id="atwill" role="tabpanel" aria-labelledby="atwill-tab">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="custom-control custom-radio">
+
+                                </div>
+                                <div class="custom-control custom-radio">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="encounter" role="tabpanel" aria-labelledby="encounter-tab">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="custom-control custom-radio">
+
+                                </div>
+                                <div class="custom-control custom-radio">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="daily" role="tabpanel" aria-labelledby="daily-tab">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <div class="custom-control custom-radio">
+
+                                </div>
+                                <div class="custom-control custom-radio">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <input type="submit" class="btn btn-primary" value="Previous" onclick="backSection(this)">
             <input type="submit" class="btn btn-primary" value="Next" onclick="nextSection(this)">
         </div>
