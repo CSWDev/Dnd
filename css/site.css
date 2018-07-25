@@ -32,23 +32,7 @@ section div.content h2
     margin-bottom : 25vh;
 }
 
-section.equipment div.choices
-{
-    position : absolute;
-    width    : 25%;
-}
 
-section.equipment div.choices div
-{
-    margin-bottom : 5%;
-}
-
-section.equipment div.equipment
-{
-    position : relative;
-    width    : 70%;
-    float    : right;
-}
 
 @media (min-width : 0px)
 {
@@ -62,21 +46,6 @@ section.equipment div.equipment
         margin-bottom : 25px;
     }
 
-    /*section*/
-    /*{*/
-    /*min-height : 100vh;*/
-    /*width      : 90%;*/
-    /*padding    : 0 1%;*/
-    /*display    : table;*/
-    /*margin     : 0;*/
-    /*!*max-width  : 75%;*!*/
-    /*}*/
-    /*section div.content*/
-    /*{*/
-    /*text-align     : center;*/
-    /*display        : table-cell;*/
-    /*vertical-align : middle;*/
-    /*}*/
 }
 
 @media (min-width : 576px)
@@ -86,12 +55,48 @@ section.equipment div.equipment
 
 @media (min-width : 768px)
 {
+    section.equipment div.choices
+    {
+        position : absolute;
+        display: block;
+        width    : 35%;
+    }
 
+    section.equipment div.choices div
+    {
+        margin-bottom : 5%;
+    }
+
+    section.equipment div.equipment
+    {
+        position : relative;
+        width    : 50%;
+        float    : right;
+        display: block;
+    }
 }
 
 @media (min-width : 992px)
 {
+    section.equipment div.choices
+    {
+        position : absolute;
+        display: block;
+        width    : 35%;
+    }
 
+    section.equipment div.choices div
+    {
+        margin-bottom : 5%;
+    }
+
+    section.equipment div.equipment
+    {
+        position : relative;
+        width    : 60%;
+        float    : right;
+        display: block;
+    }
 }
 
 @media (min-width : 1200px)
