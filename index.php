@@ -1,3 +1,9 @@
+<?php
+//    session_start();
+//    $_SESSION['Race'] = "";
+//    $_SESSION['Class'] = "";
+//    $_SESSION['Race'] = "";
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -239,8 +245,8 @@
     <section id="3" style="display: none;">
         <div class="content">
             <h2 class="text-white">Skills</h2>
+            <input type="submit" class="btn btn-primary" value="Previous" onclick="backSection(this)">
             <input type="submit" class="btn btn-primary" value="Next" onclick="nextSection(this)">
-
         </div>
     </section>
     <section id="4" class="equipment" style="display: none;">
@@ -253,12 +259,18 @@
                         <h6 id="userRace" class="card-subtitle mb-2 text-muted"></h6>
                         <img id="userRaceImg" class="card-img-top img-responsive" src="" sizes="100" alt="Card image cap">
                     </div>
+                    <div class="card-footer">
+                        <input type="submit" class="btn btn-primary btn-block" value="Re-choose" onclick="reChooseRace(this)">
+                    </div>
                 </div>
                 <div id="class" class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Class</h5>
                         <h6 id="userClass" class="card-subtitle mb-2 text-muted"></h6>
                         <img id="userClassImg" class="card-img-top img-responsive" src="" sizes="100" alt="Card image cap">
+                    </div>
+                    <div class="card-footer">
+                        <input type="submit" class="btn btn-primary btn-block" value="Re-choose" onclick="reChooseClass(this)">
                     </div>
                 </div>
             </div>

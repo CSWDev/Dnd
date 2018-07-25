@@ -14,6 +14,21 @@ function backSection(sender)
     document.getElementById(id).style.display = "table";
 }
 
+function reChooseRace(sender)
+{
+    var id = $(sender).closest("section").attr("id");
+    document.getElementById(id).style.display = "none";
+    document.getElementById("1").style.display = "table";
+}
+
+function reChooseClass(sender)
+{
+    var id = $(sender).closest("section").attr("id");
+    document.getElementById(id).style.display = "none";
+    document.getElementById("2").style.display = "table";
+}
+
+
 function getClass(sender)
 {
     document.getElementById("userClass").innerHTML = (sender.parentNode.parentNode.id);
